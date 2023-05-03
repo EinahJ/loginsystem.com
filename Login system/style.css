@@ -1,0 +1,145 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;  
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.container .content {
+    text-align: center;
+}
+/* hi admin */
+.container .content h3 { 
+    font-size: 30px;
+    color: #333;
+}
+/* admin */
+.container .content h3 span{
+    background: maroon;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+/* welcome */
+.container .content h1{
+    font-size: 50px;
+    color: #333;
+}
+/* name of user */
+.container .content h1 span {
+    color: maroon;
+}
+/* this is admin page */
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+/* user buttons */
+.container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #F9A602;
+    color: #800000;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+/* button hover */
+.container .content .btn:hover{
+    background-color: #F7B500;
+}
+/* container */
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+/* register form container */
+.form-container form {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: #800000;
+    text-align: center;
+    width: 500px;
+}
+/* REGISTER*/
+.form-container form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #F7B500;
+}
+/* register textboxes */
+.form-container form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+.form-container form input:hover{
+    background: lightgray;
+}
+/* register now button */
+.form-container form .form-btn{
+    background: #F9A602;
+    color: #800000;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* register now hover */
+.form-container form .form-btn:hover{
+    background-color: #F7B500;
+
+}
+/* already have an account login now */
+.form-container form a, p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFFFF0;
+}
+/* login now hover */
+.form-container form a:hover{
+    color: #F7B500;
+}
+
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: White;
+    color: maroon;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.admin {
+    display: flex;
+}
+.user {
+    display: inline-block;
+    justify-content: space-between;
+}
+select.type {
+    display: none;
+ }
